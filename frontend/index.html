@@ -7,28 +7,35 @@
 </head>
 <body>
 
-  <header class="header">
-    <h1>Bus Tracking System</h1>
-    <p>Simple route and information portal</p>
-  </header>
+<header class="navbar">
+  <h1 class="logo">BusTrack</h1>
+  <nav>
+    <a href="#routes">Routes</a>
+    <a href="#news">News</a>
+    <a href="#funzone">FunZone</a>
+  </nav>
+</header>
+
 
   <main class="container">
 
-    <section class="card">
-      <h2>🗺 Bus Routes</h2>
-      <p>View available bus routes on map.</p>
-    </section>
+   <section class="card" id="routes">
+  <h2>🗺 Bus Routes</h2>
+  <p>View available bus routes on map.</p>
+</section>
 
-    <section class="card">
-      <h2>📰 Transport News</h2>
-      <p>Latest updates related to public transport.</p>
-    </section>
+<section class="card" id="news">
+  <h2>📰 Transport News</h2>
+  <p>Latest updates related to public transport.</p>
+</section>
 
-    <section class="card">
+<section class="card" id="funzone">
   <h2>🎮 FunZone</h2>
   <p>Click the button to learn a fun transport fact.</p>
   <button onclick="showFunFact()">Show Fun Fact</button>
 </section>
+
+
 
 
   </main>
