@@ -57,3 +57,18 @@ button {
 button:hover {
   background-color: #1e3a8a;
 }
+.news-card {
+  border-left: 5px solid #1e40af;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #f9fafb;
+  border-radius: 5px;
+}
+
+.news-card h3 {
+  margin: 0;
+}
+#map {
+  height: 300px;
+  border-radius: 8px;
+}
